@@ -20,7 +20,7 @@ export const createProduct = async (req, res) => {
 
 
 
-// GET ALL PRODUCTS
+
 export const getProducts = async (req, res) => {
 
   try {
@@ -39,7 +39,7 @@ export const getProducts = async (req, res) => {
 
 
 
-// GET PRODUCT BY ID
+
 export const getProductById = async (req, res) => {
 
   try {
@@ -62,7 +62,6 @@ export const getProductById = async (req, res) => {
 
 
 
-// UPDATE PRODUCT
 export const updateProduct = async (req, res) => {
 
   try {
@@ -85,7 +84,7 @@ export const updateProduct = async (req, res) => {
 
 
 
-// DELETE PRODUCT
+
 export const deleteProduct = async (req, res) => {
 
   try {
@@ -104,7 +103,7 @@ export const deleteProduct = async (req, res) => {
 
 
 
-// SEARCH PRODUCT
+
 export const searchProduct = async (req, res) => {
 
   try {
@@ -127,7 +126,7 @@ export const searchProduct = async (req, res) => {
 
 
 
-// FILTER CATEGORY
+
 export const filterCategory = async (req, res) => {
 
   try {
